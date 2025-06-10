@@ -1,1 +1,2 @@
-### Easy case(1 star question) of uva/cpe.
+### Easy case
+- We place some 1-star questions of cpe in this Easy Folder.
