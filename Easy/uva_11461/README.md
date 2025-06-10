@@ -1,4 +1,5 @@
 # 📐 UVa 11461 - Square Numbers
+![image](https://github.com/user-attachments/assets/11fe22bf-e813-4b7a-b9a3-f987a06bd54b)
 
 ## 📘 題目敘述
 
