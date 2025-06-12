@@ -1,5 +1,7 @@
 # 🔐 UVa 10019 - Funny Encryption Method
-![image](https://github.com/user-attachments/assets/f668b271-02b9-447b-9a33-475dc2ca61e4)
+![image](https://github.com/user-attachments/assets/cd7f58e6-3a0e-473c-ac8c-82709a8ae310)
+![image](https://github.com/user-attachments/assets/30dbe988-a09c-4db9-8a5e-f7cb45ccc7c3)
+
 ## 📘 題目敘述
 
 一名學生在 ITESM Campus Monterrey 使用一種新的加密方法處理數字。  
