@@ -1,8 +1,10 @@
 # 💖 UVa 10193 - All You Need Is Love
 ![image](https://github.com/user-attachments/assets/d3afaae3-6dd0-4f29-8440-3d1b2d2d876c)
 ---
+![image](https://github.com/user-attachments/assets/9ccca6b2-6b51-44e5-91a2-138e7964a0ba)
+
 ![image](https://github.com/user-attachments/assets/da142ff5-9822-4165-91f6-dd57af94c764)
-![image](https://github.com/user-attachments/assets/2ed26acf-e6a3-4a01-a2ae-ca89b79fd602)
+
 
 
 ## 📘 題目敘述
