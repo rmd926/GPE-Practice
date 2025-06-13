@@ -1,6 +1,6 @@
 def swap_times(n: int, target: list): 
     '''
-    use bubble sort to calculate times of swapping.
+    use bubble sort to swap and we will calculate times of swapping.
     '''
     count = 0
     for i in range(n):
