@@ -25,23 +25,23 @@ Doom's Day 演算法由 John Conway 創立，用於計算任意日期為星期�
 
 ## Sample input: 
 
-8
-1 6
-2 28
-4 5
-5 26
-8 1
-11 1
-12 25
-12 31
+- 8
+- 1 6
+- 2 28
+-4 5
+-5 26
+-8 1
+-11 1
+-12 25
+-12 31
 
 ## Sample Output: 
 
-Thursday
-Monday
-Tuesday
-Thursday
-Monday
-Tuesday
-Sunday
-Saturday
+-Thursday
+-Monday
+-Tuesday
+-Thursday
+-Monday
+-Tuesday
+-Sunday
+-Saturday
