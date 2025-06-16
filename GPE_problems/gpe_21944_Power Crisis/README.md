@@ -1,4 +1,4 @@
-# ⚡ UVa 21944 - Power Crisis
+# ⚡ GPE 21944 - Power Crisis
 ![image](https://github.com/user-attachments/assets/5c6aa345-c185-480f-a93c-ff11d40584de)
 ## 📘 題目敘述
 
