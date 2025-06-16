@@ -1,4 +1,4 @@
-# 🔢 UVa 10655 - Sumsets
+# 🔢 GPE 10655 - Sumsets
 ![image](https://github.com/user-attachments/assets/69337f48-be12-49e4-8a98-31180dd38a1b)
 
 ## 📘 題目敘述
