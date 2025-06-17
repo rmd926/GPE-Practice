@@ -1,8 +1,7 @@
-# 題目:
+🔢 GPE 11028 - Digit Primes
 
 ![image](https://github.com/user-attachments/assets/d60a1deb-a3e6-443b-845c-b576d59d01ac)
 
-# Digit Primes
 
 ## 題目說明
 素數（Prime）是指大於 1、且恰好有兩個不同正因數的正整數。  
