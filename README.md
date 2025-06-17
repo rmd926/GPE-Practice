@@ -1,3 +1,3 @@
-# Uva_practice
+# GPE Practice
 
 Keep practicing ^^
