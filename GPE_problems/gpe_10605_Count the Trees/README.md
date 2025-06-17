@@ -12,7 +12,8 @@
 
 - 此問題即為計算第 n 個 Catalan 數。  
 - Catalan 數公式為：  
-  ![QianJianTec1750134964904](https://github.com/user-attachments/assets/3a08f300-fb98-4c8a-8e88-6845788f8389)
+ ![image](https://github.com/user-attachments/assets/c431fa92-b3c7-4b97-8466-c8b63e08875f)
+
 
 - 可使用動態規劃從 C_0 開始遞推到 C_n。  
 - 輸入多組 n，輸出對應的 Catalan 數。
