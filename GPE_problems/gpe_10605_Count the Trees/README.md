@@ -12,7 +12,8 @@
 
 - 此問題即為計算第 n 個 Catalan 數。  
 - Catalan 數公式為：  
- ![image](https://github.com/user-attachments/assets/c431fa92-b3c7-4b97-8466-c8b63e08875f)
+![image](https://github.com/user-attachments/assets/feb8339a-8768-4be5-a5bc-afcc90091afb)
+
 
 
 - 可使用動態規劃從 C_0 開始遞推到 C_n。  
@@ -30,7 +31,8 @@
 
 3. 計算 Catalan 數（計算不同標記二元樹數量）  
    - 使用公式：  
-     C_n = (2n)! / ( (n+1)! * n! )  
+     ![image](https://github.com/user-attachments/assets/d0e90125-5cd9-498f-bf55-5a09ef71c830)
+ 
    - 利用事先計算好的階乘值快速計算。
 
 4. 輸出結果  
