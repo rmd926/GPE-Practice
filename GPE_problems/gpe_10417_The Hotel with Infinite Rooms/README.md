@@ -1,5 +1,7 @@
 # UVa 10417 - The Hotel with Infinite Rooms
-![image](https://github.com/user-attachments/assets/4b9537af-7693-44c7-bd3d-34ac6e00a020)
+![image](https://github.com/user-attachments/assets/d47147e3-588b-4c67-ae37-4a8779deb302)
+![image](https://github.com/user-attachments/assets/4adb2b70-6e99-4710-a035-014f24326834)
+
 
 ## 題目敘述
 
