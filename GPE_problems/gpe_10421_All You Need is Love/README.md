@@ -1,5 +1,5 @@
 # 💖 GPE 10421 - All You Need Is Love
-![image](https://github.com/user-attachments/assets/eb9143b4-5fc1-4715-9ffc-77f0e4e62f02)
+![image](https://github.com/user-attachments/assets/78faf673-d8cb-4b9e-bab9-4fe009e360fd)
 
 ![image](https://github.com/user-attachments/assets/464f4067-a81b-4bde-af7c-8d11d54ed2ef)
 
