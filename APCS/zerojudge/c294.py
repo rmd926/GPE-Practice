@@ -1,3 +1,5 @@
+# https://zerojudge.tw/ShowProblem?problemid=c294
+
 a = [int(i) for i in input().split()]
 
 a.sort()
