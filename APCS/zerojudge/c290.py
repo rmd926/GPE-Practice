@@ -1,3 +1,5 @@
+# https://zerojudge.tw/ShowProblem?problemid=c290
+
 while True:
     try:
         num = int(input())
