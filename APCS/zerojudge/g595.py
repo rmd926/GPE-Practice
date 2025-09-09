@@ -1,3 +1,4 @@
+# https://zerojudge.tw/ShowProblem?problemid=g595
 n = int(input())
 h = [int(x) for x in input().split()]
 
@@ -12,3 +13,4 @@ for i in range(1, len(h)-1):
     if h[i] == 0:
         total += min(h[i-1], h[i+1])
 print(total)
+
