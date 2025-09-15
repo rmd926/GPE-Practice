@@ -19,16 +19,3 @@ for i in range(n):
         pair_num = friends_list[pair_num] # 再把i配到的那個數字更新成那個數字該對應的數字
 
 print(count)
-
-
-
-
-
-
-
-
-
-
-
-
-
