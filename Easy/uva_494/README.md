@@ -13,13 +13,13 @@
 
 
 ## Sample input:
-Meep Meep!
-I tot I taw a putty tat.
-I did! I did! I did taw a putty tat.
-Shssssssssh ... I am hunting wabbits. Heh Heh Heh Heh ...
+Meep Meep!  
+I tot I taw a putty tat.  
+I did! I did! I did taw a putty tat.  
+Shssssssssh ... I am hunting wabbits. Heh Heh Heh Heh ...  
 
 ## Sample Output:
-2
-7
-10
-9
+2  
+7  
+10  
+9  
