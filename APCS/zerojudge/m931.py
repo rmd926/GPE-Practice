@@ -14,6 +14,3 @@ for a,d in pairs:
     if a**2 + d**2 == target:
         print(a, d)
         break
-
-
-
