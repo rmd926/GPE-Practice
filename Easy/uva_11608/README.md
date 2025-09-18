@@ -1,4 +1,5 @@
 # 11608 — No Problem!
+<img width="600" height="771" alt="image" src="https://github.com/user-attachments/assets/dae0bf1c-ebe2-4619-879b-b78816f66bad" />
 
 ## 📘 題目敘述
 
