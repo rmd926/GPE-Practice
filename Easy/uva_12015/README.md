@@ -1,4 +1,5 @@
 # 12015 — Google is Feeling Lucky
+<img width="616" height="787" alt="image" src="https://github.com/user-attachments/assets/70b657d0-06e8-4b55-a9f6-fed7c24cdd65" />
 
 ## 📘 題目敘述
 
