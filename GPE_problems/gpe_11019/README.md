@@ -1,4 +1,4 @@
-# 10409 — Die Game
+# GPE 11019 — Die Game
 <img width="680" height="812" alt="image" src="https://github.com/user-attachments/assets/e4d81794-d3aa-4663-befc-0a2235dc6e52" />
 
 ## 📘 題目敘述
