@@ -1,3 +1,4 @@
+# method 1:
 while True:
     try:
         n = int(input())
@@ -12,7 +13,7 @@ while True:
         break
 # AC 0.340s
 
-'''
+# method 2:
 import sys, math
 
 for s in sys.stdin.read().split():
@@ -22,6 +23,7 @@ for s in sys.stdin.read().split():
     r = math.isqrt(n)        # 整數平方根
     print('yes' if r*r == n else 'no')
 
-AC 0.06s
-'''
+# AC 0.06s
+
+
 
