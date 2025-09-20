@@ -1,4 +1,4 @@
-# 10324 — Zeros and Ones
+# GPE 10437 — Zeros and Ones
 <img width="717" height="852" alt="image" src="https://github.com/user-attachments/assets/42be0b6a-1a80-4021-aaa5-e4739778f600" />
 
 ## 📘 題目敘述
