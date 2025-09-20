@@ -1,4 +1,4 @@
-# 382 — Perfection
+# GPE 24681 — Perfection
 
 ## 📘 題目敘述
 
