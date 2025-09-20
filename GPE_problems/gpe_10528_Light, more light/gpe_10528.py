@@ -16,14 +16,12 @@ while True:
 # method 2:
 import sys, math
 
+# use sys.stdin.read() will be faster
 for s in sys.stdin.read().split():
     n = int(s)
     if n == 0:
         break
-    r = math.isqrt(n)        # 整數平方根
+    r = math.isqrt(n)       
     print('yes' if r*r == n else 'no')
 
 # AC 0.06s
-
-
-
