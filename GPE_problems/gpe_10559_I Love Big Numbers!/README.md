@@ -1,4 +1,4 @@
-# 10559 — I Love Big Numbers!
+# GPE 10559 — I Love Big Numbers!
 <img width="711" height="880" alt="image" src="https://github.com/user-attachments/assets/046d577c-7a54-47f1-ac0c-fe842c9fbdb7" />
 
 ## 📘 題目敘述
