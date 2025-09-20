@@ -29,15 +29,16 @@ def main():
     max_n = max(nums)
     fac = factorial(max_n)
     
-
     for n in nums:
-        total = 0
-        for i in str(fac[n]):
-            total += int(i)
+        total = sum(int(n) for n in str(fac[n]))
+        # total = 0
+        # for i in str(fac[n]):
+        #     total += int(i)
         print(total)
 
 if __name__ == '__main__':
     main()
         # print(sum(int(d) for d in str(fac[n])))
+
 
     
