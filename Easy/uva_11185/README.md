@@ -1,4 +1,4 @@
-# 11185 — Ternary
+# uva 11185 — Ternary
 <img width="688" height="528" alt="image" src="https://github.com/user-attachments/assets/44716070-e742-4a9e-b993-35d3fed8a5b3" />
 
 ## 📘 題目敘述
