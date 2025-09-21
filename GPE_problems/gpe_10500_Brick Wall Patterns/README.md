@@ -1,4 +1,4 @@
-# 900 — Brick Wall Patterns
+# GPE 10500 — Brick Wall Patterns
 
 <img width="589" height="841" alt="image" src="https://github.com/user-attachments/assets/67d4dfc7-7e49-403d-a707-f8a20a4667fd" />
 ## 📘 題目敘述
