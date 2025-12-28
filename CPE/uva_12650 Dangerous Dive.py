@@ -7,4 +7,4 @@ while True:
         print("*")
     else:
         rest = set(all_vol) - set(return_vol_num)
-        print(*rest,"")
+        print(*sorted(rest),"")
