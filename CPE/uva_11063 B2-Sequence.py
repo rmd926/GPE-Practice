@@ -1,3 +1,10 @@
+'''
+本題輸入輸出有點麻煩，一堆空行需要注意的 (測資和測資之間有空行、輸出時候也有空行)
+條件判斷式除了需要考慮target list裡面的元素是否可以由該list內任意兩個元素相加獲得之外，還要考慮:
+(1) target list內的所有元素需要由小到大排列，只要不是從小到大排列就是False
+(2) target list內的所有元素不能夠有0，只要有0這個值，也是False
+'''
+
 tc = 1
 while True:
 	length = int(input())
@@ -25,3 +32,4 @@ while True:
 	print()
 	tc += 1
 	space = input()
+
