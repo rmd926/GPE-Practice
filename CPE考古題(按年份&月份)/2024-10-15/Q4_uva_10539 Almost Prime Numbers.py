@@ -12,7 +12,7 @@ for i in range(2, int(MAX**0.5)+1):
 almost_prime = []
 for i in range(2, int(MAX**0.5)+1):
 	if is_prime[i]:
-		x = i**2
+		x = i**2 # 檢查所有質數的n次方是否<= MAX，若有把他加到almost_prime
 		while x <= MAX:
 			almost_prime.append(x)
 			x *= i
