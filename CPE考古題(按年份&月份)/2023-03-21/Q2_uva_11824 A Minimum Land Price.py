@@ -9,7 +9,7 @@ for _ in range(tc):
 			break
 		
 		temp.append(target)
-		temp = sorted(temp)[::-1]
+		temp = sorted(temp)[::-1] # 記得需要反轉，因為係數大的要配次方小的
 		
 	for i in range(len(temp)):
 		ans += 2 * (temp[i]) ** (i+1)
