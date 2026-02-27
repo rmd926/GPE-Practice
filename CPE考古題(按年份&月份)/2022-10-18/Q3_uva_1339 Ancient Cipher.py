@@ -1,3 +1,20 @@
+# Method 2: Use Counter
+from collections import Counter
+
+while True:
+    s1 = input()
+    s2 = input()
+
+    # 取出字元出現次數的集合
+    check_s1 = sorted(Counter(s1).values())
+    check_s2 = sorted(Counter(s2).values())
+
+    if check_s1 == check_s2:
+        print("YES")
+    else:
+        print("NO")
+
+# Method 1: Naive solution
 while True:
 	
 	s1 = input()
