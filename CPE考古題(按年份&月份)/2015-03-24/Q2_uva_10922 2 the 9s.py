@@ -21,4 +21,4 @@ while True:
 				temp += int(char)
 			new_num = temp
 		
-		print(f"{target} is a multiple of 9 and has 9-degree {count}.")a
+		print(f"{target} is a multiple of 9 and has 9-degree {count}.")
