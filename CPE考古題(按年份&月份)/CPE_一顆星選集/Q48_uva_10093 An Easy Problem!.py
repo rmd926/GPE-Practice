@@ -1,28 +1,27 @@
 while True:
 	target = input()
-	sum = 0
-	max_num = 1
+	temp = []
 	
 	for char in target:
 		if char.isdigit():
-			temp = int(char)
+			temp.append(int(char))
 			
-		elif "A" <= char <= "Z":
-			temp = ord(char) - ord("A") + 10
-			
-		elif "a" <= char <= "z":
-			temp = ord(char) - ord("a") + 36
+		elif char.isupper():
+			temp.append(ord(char) - ord("A") + 10)
 		
-		else:
-			continue
-		
-		if max_num < temp:
-			max_num = temp
-		
-		sum += temp
-	for i in range(max_num, 62):
-		if sum % i == 0:
-			print(i+1)
+		elif char.islower():
+			temp.append(ord(char) - ord("a") + 36)
+	
+	ans = float("inf")
+	r = max(temp) + 1
+	
+	for i in range(max(2, r), 63):
+		if sum(temp) % (i-1) == 0:
+			ans = i
 			break
+	
+	if ans != float("inf"):
+		print(ans)
+
 	else:
 		print("such number is impossible!")
