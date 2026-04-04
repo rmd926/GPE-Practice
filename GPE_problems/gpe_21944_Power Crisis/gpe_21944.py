@@ -1,21 +1,26 @@
-def find_min_m(N):
-    m = 1
-    while True:
-        regions = list(range(1,N+1))
-        regions.pop(0)
-        idx = 0
-        while len(regions) > 1:
-            idx = (idx+m-1) % len(regions)
-            regions.pop(idx)
-        if regions[0] == 13:
-            return m
-        m += 1
-
-def main():
-    N = int(input())
-    while N != 0:
-        print(find_min_m(N))
-        N = int(input())
-
-if __name__ == '__main__':
-    main()
+while True:
+	try:
+		seq = list(map(int, input().split()))
+	except:
+		break
+	
+	for num in seq:
+		if num == 0:
+			break
+	
+		step = 1
+		
+		while True:
+			target = [int(x) for x in range(1, num+1)]
+			target.pop(0)
+			idx = 0
+			
+			while len(target) > 1:
+				idx = (idx + step - 1) % len(target)
+				target.pop(idx)
+			
+			if target[0] == 13:
+				print(step)
+				break
+			
+			step += 1
