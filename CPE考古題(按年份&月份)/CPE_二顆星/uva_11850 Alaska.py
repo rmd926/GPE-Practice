@@ -2,7 +2,7 @@ import sys
 
 while True:
     try:
-        n = int(input())
+        n = int(input()) # n = int(sys.stdin.readline())
     except:
         break
     
@@ -13,7 +13,7 @@ while True:
     status = True
     for _ in range(n):
         k = int(input())
-        target.append(k)
+        target.append(k) # target.append(int(sys.stdin.readline()))
     
     target.sort()
     if target[0] > 200:
