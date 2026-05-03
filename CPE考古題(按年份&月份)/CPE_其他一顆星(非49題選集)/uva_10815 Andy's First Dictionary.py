@@ -10,13 +10,14 @@ while True:
         if ch.isalpha():
             word += ch
         else:
-            if word not in lookup:
-                lookup[word] = 1
-            else:
-                lookup[word] += 1
-            word = ""
+            if word != "":
+                if word not in lookup:
+                    lookup[word] = 1
+                else:
+                    lookup[word] += 1
+                word = ""
 
-    if word != "": # 處理最後一個word避免漏掉
+    if word != "":
         if word not in lookup:
             lookup[word] = 1
         else:
