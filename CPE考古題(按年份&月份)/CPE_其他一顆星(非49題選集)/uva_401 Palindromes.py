@@ -5,7 +5,7 @@ mirror_mapping = {
     'T': 'T', 'U': 'U', 'V': 'V', 'W': 'W',
     'X': 'X', 'Y': 'Y', 'Z': '5', '5': 'Z',
     '1': '1', '8': '8'
-}
+} # 這邊放會有mirror的
 
 while True:
     try:
