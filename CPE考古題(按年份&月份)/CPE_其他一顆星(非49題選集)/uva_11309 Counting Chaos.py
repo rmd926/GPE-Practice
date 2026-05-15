@@ -4,9 +4,7 @@ for _ in range(tc):
     cur = 60 * h + m
 
     while True:
-        cur += 1
-        if cur >= 1440:
-            cur %= 1440
+        cur = (cur+1) % 1440
         
         hour = cur // 60
         minute = cur % 60
