@@ -17,3 +17,5 @@ while True:
 		ans = max(ans, cal_length(num))
 	
 	print(low, high, ans)
+
+# 2026.05.19 二刷，要注意line 16那邊一定要取min max，也不能在一開始的地方把low, high分別用min max去做，這樣輸出會錯
