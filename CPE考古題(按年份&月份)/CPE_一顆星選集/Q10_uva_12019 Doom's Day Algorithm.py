@@ -1,9 +1,11 @@
 tc = int(input())
-day = ["Friday", "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"]
+Day = ["Friday", "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"]
 month_days = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 
 for _ in range(tc):
-	month, date = map(int, input().split())
-	total_days = sum(month_days[0: month]) + date
+	month, day = map(int, input().split())
+	total = sum(month_days[0: month]) + day
 	
-	print(day[total_days % 7])
+	print(Day[total % 7])
+
+# 2026.05.19 二刷
