@@ -7,3 +7,4 @@ for _ in range(tc):
 	
 	else:
 		print(f"{(a+b)//2} {(a-b)//2}")
+# 2026.05.19 二刷
