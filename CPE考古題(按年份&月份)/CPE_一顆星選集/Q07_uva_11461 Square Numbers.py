@@ -11,3 +11,4 @@ while True:
 		low += 1
 	
 	print(high - low + 1)
+# 2026.05.19 二刷
