@@ -11,3 +11,4 @@ while True:
         ans += ch * count
 
     print(ans)
+# 2026.05.20 二刷 要留意多次數的字母，而不是直接取set
