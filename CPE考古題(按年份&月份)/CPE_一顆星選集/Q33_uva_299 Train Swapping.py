@@ -1,4 +1,4 @@
-def swapping_times(target):
+def swap_count(target):
 	count = 0
 	n = len(target)
 	for i in range(n):
@@ -9,7 +9,9 @@ def swapping_times(target):
 	return count
 
 tc = int(input())
+
 for _ in range(tc):
 	n = int(input())
 	target = list(map(int, input().split()))
-	print(f"Optimal train swapping takes {swapping_times(target)} swaps.")
+	print(f"Optimal train swapping takes {swap_count(target)} swaps.")
+# 2026.05.20 二刷
