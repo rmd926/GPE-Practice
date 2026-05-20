@@ -10,3 +10,4 @@ while True:
 			ans += math.gcd(i, j)
 	
 	print(ans)
+# 2026.05.20 二刷
