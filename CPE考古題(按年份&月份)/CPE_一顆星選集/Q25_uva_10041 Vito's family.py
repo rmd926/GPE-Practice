@@ -1,16 +1,18 @@
-def cal_length(vito):
-	vito = sorted(vito)
-	mid = len(vito) // 2
-	distance = 0
-	for i in range(len(vito)):
-		distance += abs(vito[i] - vito[mid])
+def cal_length(n, target):
+	ans = 0
+	mid = n // 2
+	target.sort()
+	for num in target:
+		ans += abs(target[mid] - num)
 		
-	return distance
+	return ans
 
 tc = int(input())
 for _ in range(tc):
-	target = list(map(int, input().split()))
-	n = target[0]
-	vito = target[1:]
+	seq = list(map(int, input().split()))
+	n = seq[0]
+	target = seq[1:]
 	
-	print(cal_length(vito))
+	print(cal_length(n, target))
+
+# 2026.05.20 二刷
