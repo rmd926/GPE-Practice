@@ -1,16 +1,19 @@
 tc = 0
+
 while True:
 	target = input()
 	lookup = {}
-	tc += 1
-	if tc > 1:
+	
+	if tc > 0:
 		print()
-		
-	for char in target:
-		if char not in lookup:
-			lookup[char] = 1
+	tc += 1
+	
+	for ch in target:
+		if ch not in lookup:
+			lookup[ch] = 1
 		else:
-			lookup[char] += 1
+			lookup[ch] += 1
 	
 	for key, value in sorted(lookup.items(), key = lambda x: (x[1], -ord(x[0]))):
 		print(ord(key), value)
+# 2026.05.22 二刷 line: 17那邊記得要考慮次數相同時比較的第二條件，也就是按照ord由大到小排
