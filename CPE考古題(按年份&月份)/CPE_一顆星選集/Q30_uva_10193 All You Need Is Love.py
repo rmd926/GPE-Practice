@@ -5,7 +5,8 @@ for t in range(tc):
 	s1 = int(input(), 2)
 	s2 = int(input(), 2)
 	
-	if math.gcd(s1, s2) != 1:
-		print(f"Pair #{t+1}: All you need is love!")
-	else:
+	if math.gcd(s1, s2) == 1:
 		print(f"Pair #{t+1}: Love is not all you need!")
+	else:
+		print(f"Pair #{t+1}: All you need is love!")
+# 2026.05.23 二刷
