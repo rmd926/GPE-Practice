@@ -6,15 +6,18 @@ for t in range(tc):
 	
 	for i in range(size):
 		for j in range(size):
-			n1 = M[i][j]
-			n2 = M[size-i-1][size-j-1]
+			x1 = M[i][j]
+			x2 = M[size-i-1][size-j-1]
 			
-			if n1 < 0 or n2 < 0 or n1 != n2:
+			if x1 < 0 or x2 < 0 or x1 != x2:
 				status = False
 				break
+			else:
+				continue
 	
 	if status:
 		print(f"Test #{t+1}: Symmetric.")
-		
 	else:
 		print(f"Test #{t+1}: Non-symmetric.")
+
+# 2026.05.23 二刷，注意initial M的時候，語法要記起來
