@@ -11,3 +11,5 @@ for _ in range(tc):
 	
 for key, value in sorted(lookup.items()):
 	print(key, value)
+
+# 2026.05.22 二刷 target = input().split()也可以
