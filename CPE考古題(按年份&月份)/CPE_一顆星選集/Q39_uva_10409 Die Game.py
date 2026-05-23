@@ -19,3 +19,4 @@ while True:
 			dice[5], dice[4], dice[0], dice[1] = dice[0], dice[1], dice[4], dice[5]
 			
 	print(dice[0])
+# 2026.05.23 二刷，用一張紙寫起來。
