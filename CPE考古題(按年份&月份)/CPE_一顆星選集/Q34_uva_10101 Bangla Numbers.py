@@ -3,7 +3,7 @@ def bangla(num):
 	if num >= 10000000:
 		result += f"{bangla(num // 10000000)} kuti "
 		num %= 10000000
-		
+	
 	if num >= 100000:
 		result += f"{bangla(num // 100000)} lakh "
 		num %= 100000
@@ -19,14 +19,16 @@ def bangla(num):
 	if num != 0:
 		result += str(num)
 	
-	return result
-	
+	return result.strip()
+
 tc = 1
 while True:
-	target = int(input())
-	if target == 0:
+	num = int(input())
+	if num == 0:
 		print(f"{tc:>4}. 0")
 	else:
-		ans = " ".join(bangla(target).split())
+		ans = bangla(num)
 		print(f"{tc:>4}. {ans}")
+	
 	tc += 1
+# 2026.05.24 二刷，細節需要重新複習，太多噁心人的I/O
