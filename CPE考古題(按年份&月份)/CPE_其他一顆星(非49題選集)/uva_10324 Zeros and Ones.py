@@ -1,20 +1,22 @@
 tc = 1
 while True:
 	target = input()
-	print(f"Case {tc}:")
+	n = int(input())
 	
-	query = int(input())
-	for _ in range(query):
+	print(f"Case {tc}:")
+	for _ in range(n):
 		a, b = map(int, input().split())
-		low, high = min(a, b), max(a, b)
+		high, low = max(a,b), min(a,b)
 		temp = 0
 		
 		for ch in target[low: high+1]:
 			temp += int(ch)
 		
-		if temp == 0 or temp == high - low + 1:
+		if temp == (high - low + 1) or temp == 0:
 			print("Yes")
 		else:
 			print("No")
-		
+
 	tc += 1
+
+# 2026.05.25 二刷
