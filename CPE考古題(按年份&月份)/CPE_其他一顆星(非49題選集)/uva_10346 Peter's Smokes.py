@@ -13,3 +13,21 @@ while True:
 	        n = n//k + remain
 	        
 	    print(ans)
+
+
+while True:
+    try:
+        n, k = map(int, input().split())
+    except:
+        break
+    
+    ans = n
+    while n >= k:
+        temp = n // k
+        remain = n % k
+        ans += temp
+        n = temp + remain
+    
+    print(ans)
+
+# 2026.05.25 二刷
