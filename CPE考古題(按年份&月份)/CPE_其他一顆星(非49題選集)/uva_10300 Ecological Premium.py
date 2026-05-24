@@ -1,13 +1,11 @@
 tc = int(input())
 for _ in range(tc):
-    try:
-        n = int(input())
-    except:
-        break
+	n = int(input())
+	ans = 0
+	for _ in range(n):
+		a, b, c = map(int, input().split())
+		ans += a * c
+	
+	print(ans)
 
-    total = 0
-    for _ in range(n):
-        a, b, c = map(int, input().split())
-        total += a*c
-    
-    print(total)
+# 2026.05.25 二刷
