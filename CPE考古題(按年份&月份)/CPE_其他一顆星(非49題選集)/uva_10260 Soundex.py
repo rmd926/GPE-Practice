@@ -8,24 +8,25 @@ soundex_dict = {
 }
 
 while True:
-	try:
-		target = input()
-	except:
-		break
-	output = ""
-	prev_code = 0
+    try:
+        target = input()
+    except:
+        break
+    
+    prev = 0
+    ans = ""
+    for ch in target:
+        if ch in soundex_dict:
+            if soundex_dict[ch] != prev:
+                ans += str(soundex_dict[ch])
+            else:
+                continue
+				
+            prev = soundex_dict[ch]
 
-	for i in range(len(target)):
-		if target[i] not in soundex_dict:
-			prev_code = 0
-			continue
-			
-		elif soundex_dict[target[i]] == prev_code:
-			continue
-		
-		else:
-			output += str(soundex_dict[target[i]])
+        else:
+            prev = 0
+    
+    print(ans)
 
-		prev_code = soundex_dict[target[i]]
-	
-	print(output)
+# 2026.05.25 二刷 用ptr概念去解
