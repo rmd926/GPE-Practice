@@ -1,15 +1,16 @@
 tc = int(input())
 for _ in range(tc):
-    try:
-        n = int(input())
-    except:
-        break
-
+    num = int(input())
     count = 1
-    target = n + int(str(n)[::-1]) # 起始先做一次，因為原本就是回文的數字還是要做一次操作
 
-    while str(target) != str(target)[::-1]:
-        target += int(str(target)[::-1])
-        count += 1
+    temp = num
+    while True:
+        temp += int(str(temp)[::-1])
+        if str(temp) != str(temp)[::-1]:
+            count += 1
+        else:
+            break
     
-    print(f"{count} {target}")
+    print(f"{count} {temp}")
+
+# 2026.05.24 二刷
