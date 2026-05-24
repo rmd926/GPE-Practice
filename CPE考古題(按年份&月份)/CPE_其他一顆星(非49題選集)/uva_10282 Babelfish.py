@@ -21,3 +21,5 @@ while True:
 		print("eh")
 	else:
 		print(lookup[target])
+
+# 2026.05.25 二刷，注意input格式
