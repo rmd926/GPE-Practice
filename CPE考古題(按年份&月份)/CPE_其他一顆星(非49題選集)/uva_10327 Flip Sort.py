@@ -17,3 +17,4 @@ while True:
         break
 
     print(f"Minimum exchange operations : {swap_times(target)}")
+# 2026.05.25 二刷
