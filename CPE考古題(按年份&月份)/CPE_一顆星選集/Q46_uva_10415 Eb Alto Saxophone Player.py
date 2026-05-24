@@ -1,5 +1,3 @@
-tc = int(input())
-
 notes = {
     'c': "0111001111",
     'd': "0111001110",
@@ -17,16 +15,18 @@ notes = {
     'B': "1100000000"
 }
 
+tc = int(input())
 for _ in range(tc):
 	target = input()
 	prev = "0000000000"
 	ans = [0] * 10
 	
-	for char in target:
-		cur = notes[char]
+	for ch in target:
+		cur = notes[ch]
 		for i in range(10):
 			if prev[i] == "0" and cur[i] == "1":
-				ans[i] += 1		
+				ans[i] += 1
 		prev = cur
-	
 	print(*ans)
+
+# 2026.05.24 二刷
