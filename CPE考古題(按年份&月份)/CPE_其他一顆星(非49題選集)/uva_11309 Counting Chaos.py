@@ -18,3 +18,4 @@ for _ in range(tc):
         if temp == temp[::-1]:
             print(f"{hour:02d}:{minute:02d}")
             break
+# 2026.05.25 細節要注意
