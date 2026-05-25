@@ -13,3 +13,5 @@ for t in range(tc):
 			continue
             
 	print(f"Case {t+1}: {high} {low}")
+
+# 2026.05.26 二刷
