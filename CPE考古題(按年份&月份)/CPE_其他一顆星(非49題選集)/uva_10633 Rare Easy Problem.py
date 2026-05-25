@@ -1,17 +1,19 @@
 while True:
     try:
-        target = int(input())
+        n = int(input())
     except:
         break
 
-    if target == 0:
+    if n == 0:
         break
-
+    
     ans = []
-    ans.append(target + target // 9)
+    ans.append(n + n // 9)
 
-    if target % 9 == 0:
-        ans.append(target + target // 9 - 1)
+    if n % 9 == 0:
+        ans.append(n + n // 9 - 1)
     
     ans.sort()
     print(*ans)
+
+# 2026.05.25 二刷 輸出前記得sort
