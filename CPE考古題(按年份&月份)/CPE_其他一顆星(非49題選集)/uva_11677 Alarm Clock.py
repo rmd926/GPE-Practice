@@ -13,3 +13,5 @@ while True:
         ans = (h2-h1+24) * 60 + m2 - m1
 
     print(ans % 1440)
+
+# 2026.05.26 二刷
