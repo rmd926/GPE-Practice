@@ -34,3 +34,5 @@ while True:
             ans += ch
             
     print(ans)
+
+# 2026.05.25 二刷 基本題
