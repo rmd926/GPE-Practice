@@ -32,3 +32,5 @@ for t in range(tc):
         print(f"Case {t+1}: empty")
     else:
         print(f"Case {t+1}: {ans}")
+
+# 2026.05.25 二刷
