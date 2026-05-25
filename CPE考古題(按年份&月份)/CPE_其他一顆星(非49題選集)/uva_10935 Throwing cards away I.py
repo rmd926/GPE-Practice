@@ -28,3 +28,4 @@ while True:
 			
 		print(f"Remaining card: {cur[0]}")
 		
+# 2026.05.25 二刷 注意格式
