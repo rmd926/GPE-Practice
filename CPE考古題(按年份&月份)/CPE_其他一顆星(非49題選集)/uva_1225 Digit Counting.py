@@ -22,3 +22,5 @@ for _ in range(tc):
         ans.append(value)
     
     print(*ans)
+
+# 2026.05.26 二刷 注意記得要把lookup先建好，因為會有那種出現次數為0的case，若沒建output會沒有
