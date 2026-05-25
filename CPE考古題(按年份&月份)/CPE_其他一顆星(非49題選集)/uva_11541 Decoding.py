@@ -1,28 +1,25 @@
 tc = int(input())
 for t in range(tc):
-    try:
-        target = input()
-    except:
-        break
+    target = input()
 
-    ans = ""
-    alpha_temp = ""
+    letter_temp = ""
     digit_temp = ""
+    ans = ""
 
-    for i in range(len(target)):
-        if target[i].isalpha():
-            
+    for ch in target:
+        if ch.isalpha():
             if digit_temp:
-                ans += alpha_temp * int(digit_temp)
+                ans += letter_temp * int(digit_temp)
+                letter_temp = ""
                 digit_temp = ""
-                alpha_temp = ""
-
-            alpha_temp += target[i]
-
-        elif target[i].isdigit():
-            digit_temp += target[i]
-
-    if digit_temp and alpha_temp:
-        ans += alpha_temp * int(digit_temp)
+            letter_temp += ch
+    
+        elif ch.isdigit():
+            digit_temp += ch
+    
+    if letter_temp and digit_temp:
+        ans += letter_temp * int(digit_temp)
     
     print(f"Case {t+1}: {ans}")
+
+# 2026.05.25 二刷
