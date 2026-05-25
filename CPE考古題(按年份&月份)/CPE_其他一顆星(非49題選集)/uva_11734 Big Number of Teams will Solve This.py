@@ -1,16 +1,18 @@
 tc = int(input())
 for t in range(tc):
     try:
-        output = input()
-        gt = input()
+        s1 = input()
+        s2 = input()
     except:
         break
 
-    if output == gt:
+    if s1 == s2:
         print(f"Case {t+1}: Yes")
-
-    elif output.replace(" ", "") == gt or gt.replace(" ", "") == output:
+    
+    elif s1.replace(" ", "") == s2 or s1 == s2.replace(" ", ""):
         print(f"Case {t+1}: Output Format Error")
     
     else:
         print(f"Case {t+1}: Wrong Answer")
+
+# 2026.05.26 二刷
