@@ -11,3 +11,5 @@ for _ in range(tc):
         print("OK")
     else:
         print("Wrong!!")
+
+# 2026.05.26 二刷 就是判斷是否三角形
