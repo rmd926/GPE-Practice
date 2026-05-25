@@ -1,13 +1,20 @@
 tc = int(input())
 for _ in range(tc):
-	n, m = map(int, input().split())
-	count = 0
+    try:
+        n, m = map(int, input().split())
+    except:
+        break
+    
+    ans = 0
+    while n >= m:
+        temp = n // m
+        remain = n % m
+        ans += temp
+        n = temp + remain
+    
+    if n == 1:
+        print(ans)
+    else:
+        print("cannot do this")
 
-	while n >= m:
-		count += n // m
-		n = n // m + n % m
-	
-	if n != 1:
-		print("cannot do this")
-	else:
-		print(count)
+# 2026.05.25 二刷
