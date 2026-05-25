@@ -27,3 +27,4 @@ while True:
             temp.add(num)
         
     print(f"{n} : {len(temp)}")
+# 2026.05.25 二刷
