@@ -16,3 +16,4 @@ for t in range(tc):
             break
     
     print(f"Case {t+1}: {count}")
+# 2026.05.26 二閱 
