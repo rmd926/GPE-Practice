@@ -5,19 +5,22 @@ for _ in range(tc):
     except:
         break
 
-    sqrt = int(len(target)**0.5)
-    if len(target) !=  sqrt ** 2:
+    n = len(target)
+
+    root = int(n ** 0.5)
+    if root ** 2 != n:
         print("INVALID")
         continue
     
     temp = []
     ans = ""
+    for i in range(0, n - root + 1, root):
+        temp.append(target[i: i+root+1])
     
-    for i in range(0, len(target) - sqrt + 1, sqrt):
-        temp.append(target[i:i+sqrt])
-    
-    for i in range(len(temp)):
-        for j in range(len(temp)):
+    for i in range(root):
+        for j in range(root):
             ans += temp[j][i]
     
     print(ans)
+
+# 2026.05.26 二刷 注意細節\
