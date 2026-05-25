@@ -1,27 +1,34 @@
-def factor_sum(n):
+def factor_sum(num):
     ans = 0
-    for i in range(1, n+1):
-        if n % i == 0:
+    for i in range(1, num+1):
+        if num % i == 0:
             ans += i
     return ans
 
+tc = 1
 while True:
     try:
-        target = int(input())
+        n = int(input())
     except:
         break
 
-    if target == 0:
+    if n == 0:
         break
-    ans_list = []
 
-    for num in range(1, target+1):
-        if factor_sum(num) == target:
-            ans_list.append(num)
+    ans = []
+    status = False
+    for num in range(n, 0, -1):
+        if factor_sum(num) == n:
+            status = True
+            break
         else:
             continue
-        
-    if ans_list:
-        print(max(ans_list))
+    
+    if status:
+        print(f"Case {tc}: {num}")
     else:
-        print(-1)
+        print(f"Case {tc}: -1")
+
+    tc += 1
+
+# 2026.05.26 二刷
