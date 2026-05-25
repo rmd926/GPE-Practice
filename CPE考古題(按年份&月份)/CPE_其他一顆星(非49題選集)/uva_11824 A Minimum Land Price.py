@@ -21,3 +21,5 @@ for _ in range(tc):
         print("Too expensive")
     else:
         print(ans)
+
+# 2026.05.26 二刷 注意一開始要用while loop
