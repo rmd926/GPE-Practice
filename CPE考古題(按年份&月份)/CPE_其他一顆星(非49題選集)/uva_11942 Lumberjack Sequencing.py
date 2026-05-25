@@ -10,3 +10,5 @@ for _ in range(tc):
         print("Ordered")
     else:
         print("Unordered")
+
+# 2026.05.26 輕鬆題，判斷是否降冪或升冪排列
