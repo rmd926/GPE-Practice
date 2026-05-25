@@ -1,23 +1,21 @@
-tc = 1
+TC = 1
+
 while True:
-    try:
-        n = int(input())
-    except:
+    n = int(input())
+    if n == -1:
         break
     
-    if n < 0:
-        break
-    print(f"Case {tc}:")
-    produce = list(map(int, input().split()))
-    cost = list(map(int, input().split()))
-
+    a = list(map(int, input().split()))
+    b = list(map(int, input().split()))
+    
+    print(f'Case {TC}:')
     cur = n
-    for i in range(12):
-        if cur >= cost[i]:
-            print("No problem! :D")
-            cur += (produce[i] - cost[i])
-        else:
-            print("No problem. :(") # 該次取消，不扣掉庫存題目
-            continue
+    for i in range(len(a)):
+        if cur >= b[i]: # 庫存夠的case
+            print('No problem! :D')
+            cur -= b[i] # 調整當前庫存，扣除使用
         
-    tc += 1
+        else:
+            print('No problem. :(')
+        cur += a[i] # 調整當前庫存，加上該月的生產
+    TC += 1
