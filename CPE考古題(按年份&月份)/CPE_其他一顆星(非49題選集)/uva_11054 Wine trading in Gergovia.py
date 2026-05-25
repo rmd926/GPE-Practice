@@ -16,3 +16,4 @@ while True:
         cur += target[i]
     
     print(ans)
+# 2026.05.25 二刷 考前記得看
