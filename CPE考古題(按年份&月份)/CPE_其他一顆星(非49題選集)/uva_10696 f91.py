@@ -8,3 +8,5 @@ while True:
 
 	else:
 		print(f"f91({n}) = {n-10}")
+
+# 2026.05.25 二刷
