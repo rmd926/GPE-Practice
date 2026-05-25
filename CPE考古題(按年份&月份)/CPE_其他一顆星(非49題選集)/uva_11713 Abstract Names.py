@@ -18,3 +18,5 @@ for _ in range(tc):
         print("Yes")
     else:
         print("No")
+
+# 2026.05.26 二刷
