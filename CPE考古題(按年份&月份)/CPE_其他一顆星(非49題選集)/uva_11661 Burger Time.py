@@ -38,3 +38,4 @@ while True:
         
     else:
         print(0)
+# 2026.05.26 二刷
