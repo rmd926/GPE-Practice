@@ -9,3 +9,5 @@ for t in range(tc):
     n = len(target)
 
     print(f"Case {t+1}: {target[n//2]}")
+
+# 2026.05.26 二刷 抓中位數
