@@ -1,5 +1,8 @@
 while True:
-	target = int(input())
+	try:
+		target = int(input())
+	except:
+		break
 	ans = target
 	
 	while target >= 3:
