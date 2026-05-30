@@ -9,7 +9,6 @@ def cal_LIS(seq):
 
     return max(dp)
 
-
 while True:
     try:
         n = int(input())
