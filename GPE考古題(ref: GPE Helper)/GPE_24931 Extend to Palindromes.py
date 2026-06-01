@@ -1,3 +1,4 @@
+# 只能用 KMP algo，否則會TLE
 def sol(s: str):
 	n = len(s)
 	res = [0] * n
