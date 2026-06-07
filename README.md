@@ -6,7 +6,7 @@
 
 ## Learning Resources & References
 > 從開始認真準備檢定考到實際考過門檻(CPE: 3/7、GPE: 240/600) 大約花了5.5個月，以下是我在這半年左右的備考期間，覺得非常實用的學習資源。
-> 這些資源協助我快速打好基礎，也讓我能更有效率地準備 CPE / GPE。雖然目前的成績距離頂尖大佬們還有一段不小的差距，但仍希望我的練習記錄與心得能幫助到同樣想要準備 CPE / GPE 的同學，特別是想使用Python應考的同學。
+> 這些資源協助我快速打好基礎，也讓我能更有效率地準備 CPE / GPE。雖然目前的成績距離頂尖大佬們還有一段不小的差距，但仍希望我的練習記錄(分類的有點凌亂@@)與心得能幫助到同樣想要準備 CPE / GPE 的同學，特別是想使用Python應考的同學。
 
 * [GPE Helper](https://gpe-helper.setsal.dev/problems)
 * [CPE星等分級清單](http://par.cse.nsysu.edu.tw/~advprog/star.php)
